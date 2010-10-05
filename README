@@ -1,0 +1,7 @@
+This project is a placeholder for the template project that will eventually be
+created by "snap init".  I think it will be easier if this project is
+developed standalone and then dropped into snap/project_template.
+
+The goal of this project is to build a web interface to creating snap
+applications that is dead simple for even novice users to use.  It's the
+"gateway drug" to Haskell. :)
