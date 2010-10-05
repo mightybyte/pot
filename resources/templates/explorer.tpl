@@ -19,8 +19,10 @@
       </p>
       <div id="template_explorer">
         <h3>Templates</h3>
+        <a href="#">add new</a>
         <template_tree/>
         <h3>Tags</h3>
+        <a href="#">add new</a>
         <tag_tree/>
       </div>
       <content/>
