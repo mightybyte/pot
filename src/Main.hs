@@ -90,7 +90,8 @@ main = do
 addSplices :: TemplateState StateSnap -> TemplateState StateSnap
 addSplices = bindSplices
 --    [ ("templates", templatesSplice "resources/templates")
-    [ ("templates", templatesSplice "resources/templates")
+    [ ("template_tree", templatesSplice "resources/templates")
+    , ("tag_tree", tagsSplice "src")
     ]
 
 

@@ -64,9 +64,9 @@ routes :: StateSnap ()
 routes = route
          [ ("/", frontPage)
          , ("/echo/:stuff", echo)
-         , ("/listTemplates", listTemplates "resources/templates")
          ]
-         <|> dir "template" editFile
+         <|> dir "template" (editFile "resources/templates/" ".tpl" "/explorer")
+         <|> dir "tag" (editFile "src/" ".hs" "/explorer")
          <|> handleTemplates
 
 

@@ -24,3 +24,25 @@ img {
 #info {
    font-size: 60%;
 }
+
+h3 {
+  margin: 0;
+}
+
+#template_explorer {
+/*  border: 1px solid red;*/
+  width: 180px;
+  float: left;
+}
+
+#editor_source {
+/*  border: 1px solid black;*/
+  width: 780px;
+  margin-left: 180px;
+}
+
+textarea {
+  font-size: 10pt;
+  font-family: "Andale Mono";
+}
+

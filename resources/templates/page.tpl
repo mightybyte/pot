@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Snap web server</title>
-    <link rel="stylesheet" type="text/css" href="screen.css"/>
+    <link rel="stylesheet" type="text/css" href="/screen.css"/>
   </head>
   <body>
     <div id="content">
